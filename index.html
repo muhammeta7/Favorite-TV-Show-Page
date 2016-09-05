@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8">
-    <title>Trivia Game</title>
+    <title>TV Show Gif Page</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
@@ -10,14 +10,27 @@
   </head>
 
   <body>
-    
+    <div class = 'container'>
 
-
+      <div class = 'row'>
+        <div id = 'showButtons'></div>
+      </div>
   
+      <div class = 'row'>
+          <div class = 'display'></div>
+      </div>
 
+      <div class = 'row'>
+        <form id = 'showForm'>
+          <label for = 'newShow'>Type in your favorite TV show</label>
+          <input type ='text' id = 'newShow'><br>
+          <input id = 'addShow' type = 'submit' value = 'Submit'>
+        </form>
+      </div>
+
+    </div>
 
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script type="text/javascript" src="assets/javascript/app.js"></script>
- 
   </body>
 </html>

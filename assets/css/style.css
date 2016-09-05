@@ -1,0 +1,22 @@
+body{
+	background: black;
+}
+
+img{
+	max-height: 175px;
+}
+
+button{
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+form{
+	padding: 10px;
+}
+
+form, .showBtn{
+	background-color: gray;
+	color: black;
+}
+
