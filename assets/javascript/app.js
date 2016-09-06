@@ -1,4 +1,4 @@
-var showName = ['Breaking Bad','Game of Thrones','The Walking Dead','Parks and Recreation', 'The Office', 'Rick and Morty', 'Entourage', 'How I Met your Mother'];
+var showName = ['Heroes', 'Breaking Bad','Game of Thrones','Walking Dead','Parks and Recreation', 'The Office', 'Rick and Morty', 'Entourage', 'How I Met your Mother'];
 var animatedGif;
 var currentGif;
 var pausedGif;  
@@ -28,7 +28,7 @@ function createButtons(){
 				if(thisRating == ''){
 					thisRating = 'Not Rated';
 				}
-				var rating = $('<h5>').html('Rated: '+thisRating).addClass('ratingStyle');
+				var rating = $('<h4>').html('Rated: '+thisRating).addClass('ratingStyle');
 				stillGif= $('<img>').attr('data-animated', animatedGif).attr('data-paused', pausedGif).attr('src', pausedGif).addClass('play');
 				var fullGifDisplay = $('<button>').append(rating, stillGif);
 				$('.display').append(fullGifDisplay);
@@ -53,4 +53,4 @@ $('#addShow').on('click', function(){
 	return false;
 });
 
-createButtons();
+
