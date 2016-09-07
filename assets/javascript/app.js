@@ -47,10 +47,26 @@ $(document).on('mouseleave','.play', function(){
 
 //Creates button from user input
 $('#addShow').on('click', function(){
-	var newShowInput = $('#newShow').val().trim();
-	showName.push(newShowInput);
-	createButtons();
+	var repeatCheck = false;
+	for(var i=0;i<showName.length;i++){
+		if($('#newShow').val() == showName[i]){
+			repeatCheck = true;
+		}
+	}
+	if ($('#newShow').val() == '') {
+		alert('You did not type anything. Please type in a new show!');
+	}
+	else if (repeatCheck == true){
+		alert('That show already exists. Enter something different.');
+		$('#newShow')
+	}
+	else{
+		var newShowInput = $('#newShow').val().trim();
+		showName.push(newShowInput);
+		$('#newShow').val('');
+		createButtons();
+	}
 	return false;
 });
 
-
+createButtons();
