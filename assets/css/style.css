@@ -3,7 +3,7 @@ img{
 	max-height: 150px;
 }
 form, .showBtn{
-	background-color: blue;
+	background-color: #A9A9A9;
 	color:white;
 }
 form{
@@ -33,10 +33,10 @@ button{
 	margin: 10px;
 	color: white;
 }
-/*.showBtn{
-	padding: 6px;
-	margin: 3px;
-}*/
+.showButton{
+	margin: 10px;
+}
+
 footer{
 	background: black;
 	color: white;
@@ -45,10 +45,7 @@ footer{
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-button, input, select, textarea {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-    border: 1px solid blue;
-    margin: 5px;
+
+.giphys{
+	margin: 5px;
 }
