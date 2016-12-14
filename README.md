@@ -28,4 +28,4 @@ PAGE UNDER CONSTRUCTION
 * Bootstrap- Wireframe
 
 ## Authors
-**Muhammet Aydin** - *Sequelize/Node/Express* - [Muhammet Aydin](https://github.com/muhammeta7/MongoScrape)
+**Muhammet Aydin** - *Sequelize/Node/Express* - [Muhammet Aydin](https://github.com/muhammeta7)
